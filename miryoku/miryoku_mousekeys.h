@@ -7,8 +7,8 @@
 #define U_BTN2 &mkp MB2
 #define U_BTN3 &mkp MB3
 
-#define U_MS_D &kp KP_N2
-#define U_MS_L &kp KP_N4
+#define U_BTN4 &mkp MB4
+#define U_BTN5 &mkp MB5
 #define U_MS_R &kp KP_N6
 #define U_MS_U &kp KP_N8
 #define U_WH_D U_NU
