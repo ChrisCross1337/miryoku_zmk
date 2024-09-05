@@ -13,10 +13,10 @@
 
 //traditional keyboard as gaming layer
 #define MIRYOKU_LAYER_EXTRA \
-&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,           \
-&kp LCTRL,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp LALT,          &kp SPC,           &mo U_TAP,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,            &kp Y,             &kp U,             &kp I,             &kp O,             \
+&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp G,            &kp H,             &kp J,             &kp K,             &kp L,             \
+&kp LCTRL,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,            &kp N,             &kp M,             &kp COMMA,         &kp DOT,           \
+U_NP,              U_NP,              &kp LALT,          &kp SPC,           &mo U_TAP,         &kp RET,          &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_TAP \
 &kp ESC,           &kp NUM_1,         &kp W,             &kp NUM_2,         &kp NUM_5,          &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
