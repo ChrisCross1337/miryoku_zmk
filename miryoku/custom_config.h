@@ -24,6 +24,7 @@ U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 // 6X3 CORNE
+//test
 #if defined (MIRYOKU_KEYBOARD_CORNE)
 
 #define MIRYOKU_KLUDGE_DOUBLETAPBOOT
