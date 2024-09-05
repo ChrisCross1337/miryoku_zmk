@@ -8,8 +8,10 @@
 //Once powered off, the keyboard will only wake up when:
 //1. You press the same button/sequence that you pressed to power off the keyboard, or
 //2. You press a reset button found on the keyboard.
-
 #define MIRYOKU_KLUDGE_SOFT_OFF
+
+//blockout in case of 6x3 
+#define XXX &none
 
 //traditional keyboard as gaming layer
 #define MIRYOKU_LAYER_EXTRA \
@@ -33,10 +35,6 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 // 5X3 CORNE
 //test
-#if defined (KEYBOARD_corne)
-
-#define MIRYOKU_KLUDGE_DOUBLETAPBOOT
-#define XXX &none
 
 // Direct custom layer access
 #define MIRYOKU_LAYOUTMAPPING_CORNE(\
