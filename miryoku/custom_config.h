@@ -1,6 +1,17 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+//Mouse movement and scroll is supported with 
+//https://github.com/petejohanson/zmk/tree/feat/pointers-move-scroll
+//from zmkfirmware/zmk#2027.
+#define MIRYOKU_KLUDGE_MOUSEKEYSPR
+//Once powered off, the keyboard will only wake up when:
+//1. You press the same button/sequence that you pressed to power off the keyboard, or
+//2. You press a reset button found on the keyboard.
+
+#define MIRYOKU_KLUDGE_SOFT_OFF
+
+//traditional keyboard as gaming layer
 #define MIRYOKU_LAYER_EXTRA \
 &kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,           \
@@ -15,7 +26,7 @@ U_NP,              U_NP,              &to U_BASE,        &kp SPC,           &non
 
 #define MIRYOKU_LAYER_MOUSE \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_BTN4,            U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,           \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_BTN5,            U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,           \
 U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA,              U_BTN4,            U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
