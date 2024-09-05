@@ -21,7 +21,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 // 6X3 CORNE
 //test
-#if defined (MIRYOKU_KEYBOARD_CORNE)
+#define MIRYOKU_KEYBOARD_CORNE
 
 #define MIRYOKU_KLUDGE_DOUBLETAPBOOT
 #define XXX &none
